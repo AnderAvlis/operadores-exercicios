@@ -41,29 +41,29 @@ console.log("O salario de Janeiro=", salJaneiro.toFixed(2))
 
 let salFevereiro = salarioMaisAuxilioCreche + (vendasFevereiro * comissao)
 let descontar2 = salFevereiro * -descontoInss
-salFevereiro = salFevereiro + descontar
+salFevereiro = salFevereiro + descontar2
 console.log("O salario de Fevereiro=",salFevereiro.toFixed(2))
 
 
 let salMarco = salarioMaisAuxilioCreche + (vendasMarco* comissao)
 let descontar3 = salMarco * -descontoInss
-salMarco = salMarco + descontar
+salMarco = salMarco + descontar3
 console.log("O salario de Marco=",salMarco.toFixed(2))
 
 
-let salAbril = salarioMaisAuxilioCreche + (vendasMarco* comissao)
+let salAbril = salarioMaisAuxilioCreche + (vendasAbril* comissao)
 let descontar4 = salAbril * -descontoInss
-salAbril = salAbril + descontar
+salAbril = salAbril + descontar4
 console.log("O salario de Abril=",salAbril.toFixed(2))
 
-let salMaio = salarioMaisAuxilioCreche + (vendasMarco* comissao)
+let salMaio = salarioMaisAuxilioCreche + (vendasMaio* comissao)
 let descontar5 = salMaio * -descontoInss
-salMaio = salMaio + descontar
+salMaio = salMaio + descontar5
 console.log("O salario de Maio=",salMaio.toFixed(2))
 
-let salJunho = salarioMaisAuxilioCreche + (vendasMarco* comissao)
+let salJunho = salarioMaisAuxilioCreche + (vendasJunho* comissao)
 let descontar6 = salJunho* -descontoInss
-salJunho = salJunho + descontar
+salJunho = salJunho + descontar6
 console.log("O salario de Junho=",salJunho.toFixed(2))
 
 let media = salJaneiro + salFevereiro + salMarco + salAbril + salMaio + salJunho
